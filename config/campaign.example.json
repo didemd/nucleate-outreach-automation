@@ -1,0 +1,6 @@
+{
+  "campaign_id": "activator-demo-2026",
+  "sender_name": "Nucleate Germany Team",
+  "template_file": "templates/activator_outreach.txt",
+  "ledger_file": "data/sent_ledger.jsonl"
+}

@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Nucleate outreach: never commit real data or secrets ---
+/data/*
+!/data/.gitkeep
+/contacts/
+*.xlsx
+*.xls
+credentials*.json
+token*.json
+client_secret*.json
+# Only the fictional example CSV may be committed
+*.csv
+!examples/example_contacts.csv
+!tests/fixtures/*.csv
+
+# macOS
+.DS_Store
