@@ -5,16 +5,18 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "nucleate-outreach"
 version = "0.1.0"
-description = "Human-approved email outreach tooling for Nucleate Germany (Milestone 1: simulation only)"
+description = "Human-approved email outreach tooling for Nucleate Germany (simulation only)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest>=7"]
+dashboard = ["streamlit>=1.40", "openpyxl>=3.1"]
 
 [project.scripts]
 nucleate-demo = "nucleate_outreach.demo:main"
+nucleate-dashboard = "nucleate_outreach.launch:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

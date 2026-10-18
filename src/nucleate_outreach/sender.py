@@ -44,6 +44,10 @@ class Sender(ABC):
             for e in self._ledger_entries()
         )
 
+    def has_success_record(self, draft_id: str) -> bool:
+        """True if the ledger holds a successful delivery for this draft (used for crash recovery)."""
+        return any(e["success"] and e["draft_id"] == draft_id for e in self._ledger_entries())
+
     def _record(self, draft: Draft, success: bool, detail: str, simulated: bool) -> None:
         self._ledger_path.parent.mkdir(parents=True, exist_ok=True)
         entry = {
