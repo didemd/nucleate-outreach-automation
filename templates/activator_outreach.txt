@@ -1,0 +1,9 @@
+Subject: Nucleate Activator Program – an invitation for {{first_name}}
+Dear {{name}},
+
+I am writing on behalf of Nucleate Germany. Your work in {{research_area}} at {{institution}} caught our attention, and we would like to invite you to learn more about our Activator Program, which supports scientists in turning research into ventures.
+
+If this sounds interesting, simply reply to this email and we will share details.
+
+Best regards,
+{{sender_name}}

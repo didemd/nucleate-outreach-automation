@@ -1,0 +1,8 @@
+name,institution,email,research_area,outreach_eligible
+Dr. Alice Example,Fictional University of Testville,alice@example.org,protein engineering,yes
+Prof. Bob Sample,Imaginary Institute of Science,bob@example.org,quantum sensing,yes
+Dr. Carol Placeholder,Demo Research Center,carol@example.org,synthetic biology,no
+Dr. Dan Mockdata,Fictional University of Testville,dan@example.org,materials chemistry,yes
+Alice Example Duplicate,Fictional University of Testville,ALICE@example.org,protein engineering,yes
+Dr. Eve Invalid,Demo Research Center,not-an-email,neuroscience,yes
+,Demo Research Center,frank@example.org,ecology,yes

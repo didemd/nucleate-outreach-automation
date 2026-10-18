@@ -1,0 +1,8 @@
+name,institution,email,research_area,outreach_eligible
+Dr. Alice Example,Fictional University,alice@example.org,protein engineering,yes
+Prof. Bob Sample,Imaginary Institute,bob@example.org,quantum sensing,no
+Alice Dup,Fictional University,ALICE@example.org,protein engineering,yes
+Eve Bad,Imaginary Institute,not-an-email,neuroscience,yes
+,Imaginary Institute,x@example.org,ecology,yes
+Gina Maybe,Imaginary Institute,gina@example.org,ecology,perhaps
+Dr. Alice Example,Fictional University,alice2@example.org,protein engineering,yes
